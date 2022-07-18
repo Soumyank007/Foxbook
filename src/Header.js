@@ -5,10 +5,10 @@ import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import FlagIcon from '@mui/icons-material/Flag';
 import {  NotificationsActive, StorefrontOutlined, SubscriptionsOutlined, SupervisedUserCircle } from '@mui/icons-material';
-import { IconButton } from '@mui/material';
-import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import {IconButton } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import ForumIcon from '@mui/icons-material/Forum';
+import AccountBoxIcon from '@mui/icons-material/AccountBox';
 
  
 
@@ -29,21 +29,21 @@ function Header() {
         
       </div>
       <div className="header_options">
-        <FlagIcon fontsize="large" />
+        <FlagIcon fontSize="large" />
       </div>
       <div className="header_options">
-        <SubscriptionsOutlined  fontsize="large"/>
+        <SubscriptionsOutlined  fontSize="large"/>
       </div>
       <div className="header_options">
-        <StorefrontOutlined fontsize="large" />
+        <StorefrontOutlined fontSize="large" />
       </div>
       <div className="header_options">
-        <SupervisedUserCircle fontsize="large" />
+        <SupervisedUserCircle fontSize="large" />
       </div>
       </div>
       <div className="header_right">
       <div className="header_info">
-        <AccountBoxIcon fontsize="large"/>
+        <AccountBoxIcon fontSize="large"/>
         <h4>Soumyank Padhy</h4>
         </div>
         <IconButton >

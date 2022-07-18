@@ -10,7 +10,7 @@
 
 }
 .header_left > img {
-height: 50px ;
+height: 60px ;
 }
 
 .header_left{
@@ -20,18 +20,17 @@ justify-content: space-evenly;}
 .header_input{
     display:flex;
     align-items: center;
-    background-color: #eff2f5 ;
+    background-color: white;
     padding: 10px;
     margin-left: 10px;
-    border-radius: 33px;
+    border-radius: 70px;
 }
-
-.header_input >:-ms-input-placeholder{
-    border:none;
-    background-color: transparent;
-    outline-width:0px ;
-    
-}
+ .header_input> input {
+border: none;
+background-color: transparent;
+outline-width: 0;
+font-size: medium;
+ }
 
 .header_middle{
     display: flex;
@@ -96,4 +95,9 @@ cursor:pointer;
 }
 .header_options:active{
     border-bottom: 4px solid #d80000;
+}
+.header{
+    border-bottom: 1px solid black;
+    background-color: #eff2f5
+
 }
